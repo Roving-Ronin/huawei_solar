@@ -1,7 +1,9 @@
 {
     "config": {
         "abort": {
-            "already_configured": "Device is already configured"
+            "already_configured": "Device is already configured",
+            "reconfigure_successful": "Re-configuration was successful",
+            "reauth_successful": "Re-authentication was successful"
         },
         "error": {
             "cannot_connect": "Failed to connect",
@@ -143,6 +145,9 @@
             "active_power": {
                 "name": "Active power"
             },
+            "active_power_control": {
+                "name": "Active power control"
+            },
             "alarm": {
                 "name": "Alarm"
             },
@@ -208,6 +213,9 @@
             },
             "insulation_resistance": {
                 "name": "Insulation resistance"
+            },
+            "forcible_charge_summary": {
+                "name": "Forcible Charge"
             },
             "line_voltage_a_b": {
                 "name": "A-B line voltage"
